@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/Dias226/repair-design#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-cssmin": "^0.2.0"
   },
   "dependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.7",
+    "gulp-rename": "^2.0.0"
   }
 }
