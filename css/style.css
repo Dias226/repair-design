@@ -522,9 +522,9 @@ body {
     max-width: unset;
     min-width: 90%; }
   .hero__title {
-    max-width: 100%; }
+    max-width: 24.28rem; }
   .hero__text {
-    max-width: 100%;
+    max-width: 23rem;
     font-size: 1.29rem;
     margin-bottom: 2.28rem; }
   .hero__button {
