@@ -519,13 +519,17 @@ body {
   .hero__scroll-down {
     display: none; }
   .hero__content {
-    max-width: 22.86rem; }
+    max-width: unset;
+    min-width: 90%; }
+  .hero__title {
+    max-width: 100%; }
   .hero__text {
+    max-width: 100%;
     font-size: 1.29rem;
     margin-bottom: 2.28rem; }
   .hero__button {
     display: block;
-    min-width: 28.56rem;
+    min-width: 100%;
     margin-bottom: 1.85rem; } }
 
 @media screen and (max-height: 520px) {
@@ -534,4 +538,5 @@ body {
 
 @media (min-width: 320px) and (max-width: 374px) {
   .hero__button {
-    min-width: 24rem; } }
+    min-width: 23rem;
+    max-width: 100%; } }
