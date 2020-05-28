@@ -459,6 +459,7 @@ body {
     background-color: #131313;
     font-family: 'Yeseva One', cursive;
     font-size: 0.87rem;
+    font-weight: normal;
     text-transform: uppercase;
     text-decoration: none;
     color: #fff; }
@@ -506,6 +507,7 @@ body {
 
 .section-title__heading {
   font-size: 1.45rem;
+  font-weight: normal;
   color: #fff;
   margin-top: 0;
   padding-top: 1rem; }
