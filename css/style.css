@@ -515,7 +515,7 @@ body {
   .contacts__button {
     display: none; }
   .title {
-    font-size: 1.64rem; }
+    font-size: 1.94rem; }
   .hero__scroll-down {
     display: none; }
   .hero__content {
@@ -524,13 +524,16 @@ body {
   .hero__title {
     max-width: 24.28rem; }
   .hero__text {
-    max-width: 23rem;
-    font-size: 1.29rem;
-    margin-bottom: 2.28rem; }
+    max-width: 27.4rem;
+    font-size: 1.55rem;
+    font-weight: 100;
+    margin-bottom: 2.59rem; }
   .hero__button {
     display: block;
-    min-width: 100%;
-    margin-bottom: 1.85rem; } }
+    min-width: 101%;
+    margin-bottom: 2rem;
+    font-size: 1.11rem;
+    padding: 1.5rem 2.07rem; } }
 
 @media screen and (max-height: 520px) {
   .hero__scroll-down {
