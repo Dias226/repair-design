@@ -437,6 +437,7 @@ img {
     max-width: 47.85rem;
     margin-left: 4.28rem; }
   .hero__text {
+    font-family: 'Futura Light', sans-serif;
     font-size: 1.57rem;
     line-height: 131%;
     max-width: 500px;
@@ -538,6 +539,7 @@ img {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
+  font-weight: normal;
   font-size: 1.29rem;
   margin-top: 0;
   margin-bottom: 0.7rem; }
@@ -561,6 +563,22 @@ img {
   background-color: #e3b873;
   color: #fff;
   padding: 1.214rem 2.6rem; }
+
+.design {
+  margin-bottom: 2rem; }
+  .design__section-title {
+    margin-bottom: 2rem; }
+
+.section-subtitle {
+  margin-bottom: 2.86rem; }
+  .section-subtitle__text {
+    margin: auto;
+    max-width: 52.5rem;
+    font-family: 'Futura Light', sans-serif;
+    font-size: 1.43rem;
+    line-height: 1.93rem;
+    text-align: center;
+    color: #131313; }
 
 @media screen and (max-width: 1200px) {
   html {
@@ -603,7 +621,6 @@ img {
     max-width: 24.28rem; }
   .hero__text {
     max-width: 26.8rem;
-    font-family: 'Futura Light', sans-serif;
     font-size: 1.55rem;
     font-weight: 100;
     margin-bottom: 2.59rem; }
