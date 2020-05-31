@@ -516,6 +516,8 @@ img {
   font-weight: normal;
   margin-top: 0;
   padding-top: 1rem; }
+  .section-title__heading_online {
+    color: #fff; }
 
 .types__section-title {
   margin-bottom: 2rem; }
@@ -565,6 +567,7 @@ img {
   padding: 1.214rem 2.6rem; }
 
 .design {
+  background: linear-gradient(to bottom, white 50%, black 50%);
   margin-bottom: 2rem; }
   .design__section-title {
     margin-bottom: 1.3rem; }
@@ -598,10 +601,10 @@ img {
   .row {
     flex-direction: column;
     align-items: center; }
-  .types__card {
-    margin-bottom: 5rem; }
   .card__text {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .card__types {
+    margin-bottom: 5rem; } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
@@ -630,11 +633,20 @@ img {
     margin-bottom: 2rem;
     font-size: 1.11rem;
     padding: 1.5rem 2.07rem; }
+  .design {
+    background: #131313; }
+  .section {
+    padding: 1.2rem; }
   .section-title__heading {
     font-size: 1.85rem;
-    color: #fff;
     margin-top: 0;
-    padding-top: 1rem; } }
+    padding-top: 1rem; }
+    .section-title__heading_style {
+      color: #fff; }
+  .section-subtitle__text {
+    font-size: 1.285rem;
+    line-height: 1.75rem;
+    color: #fff; } }
 
 @media screen and (max-height: 520px) {
   .hero__scroll-down {

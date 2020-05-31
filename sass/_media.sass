@@ -16,12 +16,11 @@
   .row
     flex-direction: column
     align-items: center
-  .types
-    &__card
-      margin-bottom: 5rem
   .card
     &__text
       margin-left: 0
+    &__types
+      margin-bottom: 5rem
 @media screen and ( max-width: 570px )
   .contacts
     &__phone
@@ -51,12 +50,22 @@
       margin-bottom: 2rem
       font-size: 1.11rem
       padding: 1.5rem 2.07rem
+  .design
+    background: $dark
+  .section
+    padding: 1.2rem
   .section-title
     &__heading
       font-size: 1.85rem
-      color: $light
       margin-top: 0
       padding-top: 1rem
+      &_style
+        color: $light
+  .section-subtitle
+    &__text
+      font-size: 1.285rem
+      line-height: 1.75rem
+      color: $light
 @media screen and ( max-height: 520px )
   .hero
     &__scroll-down
