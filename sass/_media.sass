@@ -52,6 +52,9 @@
       padding: 1.5rem 2.07rem
   .design
     background: $dark
+    &__col:nth-child(3)
+      li:nth-child(n+8)
+        display: none
   .section
     padding: 1.2rem
   .section-title
@@ -66,6 +69,9 @@
       font-size: 1.285rem
       line-height: 1.75rem
       color: $light
+  .card
+    &__text
+      max-height: 18.615rem
 @media screen and ( max-height: 520px )
   .hero
     &__scroll-down

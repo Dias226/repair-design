@@ -557,6 +557,7 @@ img {
 .card__pricetag {
   position: absolute;
   left: 0;
+  min-width: 16.28rem;
   bottom: -1.79rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', cursive;
@@ -564,7 +565,7 @@ img {
   text-transform: uppercase;
   background-color: #e3b873;
   color: #fff;
-  padding: 1.214rem 2.6rem; }
+  padding: 1.214rem 2.5rem; }
 
 .design {
   background: linear-gradient(to bottom, white 50%, black 50%);
@@ -635,6 +636,8 @@ img {
     padding: 1.5rem 2.07rem; }
   .design {
     background: #131313; }
+    .design__col:nth-child(3) li:nth-child(n+8) {
+      display: none; }
   .section {
     padding: 1.2rem; }
   .section-title__heading {
@@ -646,7 +649,9 @@ img {
   .section-subtitle__text {
     font-size: 1.285rem;
     line-height: 1.75rem;
-    color: #fff; } }
+    color: #fff; }
+  .card__text {
+    max-height: 18.615rem; } }
 
 @media screen and (max-height: 520px) {
   .hero__scroll-down {
