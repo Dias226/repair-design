@@ -26,4 +26,15 @@ $(document).ready(function () {
   closeBtn.on('click', function () {
     modal.toggleClass('modal--visible');
   });
+  $(document).keyup(function (e) {
+    if (e.key === "Escape" || e.keyCode === 27) {
+      modal.removeClass("modal--visible");
+    }
+  });
+  $(".modal").on("click", (event) => {
+    var target = event.target;
+    if (!target.closest(".modal__dialog")) {
+      modal.removeClass("modal--visible");
+    }
+  });
 })
