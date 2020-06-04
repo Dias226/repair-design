@@ -757,3 +757,7 @@ img {
 @media screen and (max-height: 520px) {
   .hero__scroll-down {
     display: none; } }
+
+@media screen and (orientation: landscape) and (max-device-width: 480px) {
+  html {
+    font-size: 8px; } }
