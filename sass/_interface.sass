@@ -54,6 +54,7 @@
 
 .back-to-top
   position: fixed
+  z-index: 99
   right: 10px
   bottom: 100px
   width: 50px
@@ -63,7 +64,6 @@
   background-color: $primary
   display: none
   &:hover, &:focus
-    filter: brightness(1.5)
     outline: none
   &::before, &::after
     content: ''

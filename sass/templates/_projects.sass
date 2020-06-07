@@ -1,11 +1,17 @@
 .swiper
+  &-wrapper
+    margin-bottom: 5.9rem
   &-slide
     display: flex
     flex-wrap: wrap
+    justify-content: flex-start
     &__text
       flex-basis: 50%
-      margin-bottom: 2.42rem
-      padding-bottom: 2rem
+      margin-bottom: 0.50rem
+      padding-bottom: 1rem
+      margin-right: 1rem
+      &_left
+        margin-left: -9.2rem
     &__heading
       font-size: 1.285rem
       line-height: 1.78rem
@@ -13,9 +19,13 @@
       font-weight: normal
       text-transform: uppercase
       color: $primary
-      margin-bottom: 0.64rem
+      margin-bottom: 0.44rem
+    &__value
+      font-size: 1.12rem
   &-pagination
     &-bullet
+      width: 10px
+      height: 10px
       background-color: rgba($light, 0.3)
       &-active
         background-color: $light
@@ -33,6 +43,8 @@
       background: url('../img/arrow-prev.svg') no-repeat center
     &-next
       background: url('../img/arrow-next.svg') no-repeat center
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet
+  margin: 0 9px 
 .swiper-container-horizontal>.swiper-pagination-bullets
   width: auto
   bottom: -2px

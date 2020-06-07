@@ -1,3 +1,6 @@
+@media screen and ( max-width: 1370px )
+  .swiper-slide__text_left
+    margin-left: -5rem
 @media screen and ( max-width: 1200px )
   html
     font-size: 12px
@@ -20,6 +23,10 @@
       margin-left: 0
     &__types
       margin-bottom: 5rem
+  .swiper-slide__text_left
+    margin-left: -2rem
+  .col-50
+    width: 100%
 @media screen and ( max-width: 570px )
   .contacts
     &__phone
@@ -54,6 +61,8 @@
     &__col:nth-child(3)
       li:nth-child(n+8)
         display: none
+  .swiper-slide__text_left
+    margin-left: -2rem
   .section
     padding: 1.2rem
   .section-title
@@ -63,6 +72,16 @@
       padding-top: 1rem
       &_style
         color: $light
+    &__projects_primary
+      font-size: 1.68rem
+      margin-bottom: 2rem
+    &__text
+      font-size: 1.176rem
+      line-height: 1.95rem
+      margin-bottom: 1.7rem
+    &__word
+      &::after
+        display: none
   .section-subtitle
     &__text
       font-size: 1.285rem
@@ -71,6 +90,13 @@
   .card
     &__text
       max-height: 18.615rem
+  .swiper-slide
+    &__heading
+      font-size: 1.185rem
+      margin-bottom: 0.84rem
+    &__value 
+      font-size: 1.19rem
+      line-height: 1.5rem
 @media screen and ( max-height: 520px )
   .hero
     &__scroll-down
@@ -79,6 +105,8 @@
   .hero
     height: unset
     padding-bottom: 1rem 
+    &::after
+      display: none
 @media screen and (orientation:landscape) and (max-device-height: 500px)
   .modal
     &__dialog
