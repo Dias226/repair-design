@@ -39,6 +39,7 @@ $(document).ready(function () {
   });
 
   var mySwiper = new Swiper('.swiper-container', {
+    spaceBetween: 5,
     loop: true,
     pagination: {
       el: '.swiper-pagination',
