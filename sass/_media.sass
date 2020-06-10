@@ -27,17 +27,23 @@
     margin-left: -2rem
   .col-50
     width: 100%
+  .control
+    &__video
+      max-width: 100%
 @media screen and ( max-width: 670px )
   .control
     &__input-group
-      margin-bottom: 4rem
+      margin-bottom: 5.7rem
     &__form
       display: flex
       flex-direction: column
     &__policy
+      margin-top: -4.5rem
       &-label
         justify-content: flex-start
         margin-bottom: 4.42rem
+        font-family: 'Futura Light', serif
+        font-size: 1.38rem
     &__button
       order: 5
 @media screen and ( max-width: 570px )
@@ -120,6 +126,35 @@
     &__value 
       font-size: 1.19rem
       line-height: 1.5rem
+  .control
+    position: relative
+    background: $dark
+    color: $light
+    padding: 0
+    padding-bottom: 2.8rem
+    &__container
+      width: 91%
+    &__section-title
+      margin-top: 0
+    &__text
+      font-size: 1.2rem
+      line-height: 2rem
+      margin-bottom: 2.8rem
+      &::before
+        margin-bottom: 1.5rem
+    &__label
+      font-size: 1.2rem
+    &__input
+      font-size: 1.5rem
+    &__button
+      position: absolute
+      width: 90%
+      font-size: 1.3rem
+      bottom: -2rem
+      padding: 1.3rem 0
+  .types
+    &__section-title
+      margin-top: 4.7rem
 @media screen and ( max-height: 520px )
   .hero
     &__scroll-down
