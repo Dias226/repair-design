@@ -155,6 +155,18 @@
   .types
     &__section-title
       margin-top: 4.7rem
+  .control
+    &__label
+      font-family: 'Futura Light', sans-serif
+      color: rgba($light, 0.5 )
+    &__input
+      &::placeholder
+        font-family: 'Futura Light', sans-serif
+        color: $light
+@media screen and ( min-width: 570px )
+  .control
+    &__input
+      color: black
 @media screen and ( max-height: 520px )
   .hero
     &__scroll-down
