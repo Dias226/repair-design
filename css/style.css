@@ -354,7 +354,7 @@ template {
 .input {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  border-bottom: 2px solid rgba(54, 54, 54, 0.3);
   font-size: 1.285rem;
   color: #fff;
   padding: 0.5rem 0; }
@@ -966,7 +966,8 @@ img {
     display: none; }
   .hero__content {
     max-width: unset;
-    min-width: 90%; }
+    min-width: 90%;
+    padding-bottom: 5rem; }
   .hero__title {
     max-width: 24.28rem; }
   .hero__text {
@@ -1000,8 +1001,7 @@ img {
     padding: 1.2rem; }
   .section-title__heading {
     font-size: 1.85rem;
-    margin-top: 0;
-    padding-top: 1rem; }
+    margin-top: -3rem; }
     .section-title__heading_style {
       color: #fff; }
   .section-title__projects_primary {
