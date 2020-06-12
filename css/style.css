@@ -1032,7 +1032,8 @@ img {
     .control__container {
       width: 91%; }
     .control__section-title {
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 3.1rem; }
     .control__text {
       font-size: 1.2rem;
       line-height: 2rem;
@@ -1068,7 +1069,14 @@ img {
     color: #fff; }
   .control__input::placeholder {
     font-family: 'Futura Light', sans-serif;
-    color: #fff; } }
+    color: #fff; }
+  .control__video {
+    min-height: 25rem; } }
+
+@media screen and (max-width: 480px) {
+  .control__video {
+    min-height: 17rem;
+    margin-bottom: 2.628rem; } }
 
 @media screen and (min-width: 570px) {
   .control__input {

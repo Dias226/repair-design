@@ -30,6 +30,7 @@
   .control
     &__video
       max-width: 100%
+  
 @media screen and ( max-width: 670px )
   .control
     &__input-group
@@ -136,6 +137,7 @@
       width: 91%
     &__section-title
       margin-top: 0
+      margin-bottom: 3.1rem
     &__text
       font-size: 1.2rem
       line-height: 2rem
@@ -163,6 +165,13 @@
       &::placeholder
         font-family: 'Futura Light', sans-serif
         color: $light
+    &__video
+      min-height: 25rem
+@media screen and ( max-width: 480px )
+  .control
+    &__video
+      min-height: 17rem
+      margin-bottom: 2.628rem
 @media screen and ( min-width: 570px )
   .control
     &__input
