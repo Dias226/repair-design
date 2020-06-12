@@ -949,7 +949,9 @@ img {
       font-family: 'Futura Light', serif;
       font-size: 1.38rem; }
   .control__button {
-    order: 5; } }
+    order: 5; }
+  .control__video {
+    min-height: 22rem; } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
@@ -1033,7 +1035,9 @@ img {
       width: 91%; }
     .control__section-title {
       margin-top: 0;
-      margin-bottom: 3.1rem; }
+      margin-bottom: 3.214rem; }
+    .control__video {
+      margin-bottom: 2.5rem; }
     .control__text {
       font-size: 1.2rem;
       line-height: 2rem;
@@ -1054,29 +1058,36 @@ img {
     margin-top: 4.7rem; }
   .control__label {
     font-family: 'Futura Light', sans-serif;
+    font-weight: normal;
     color: rgba(255, 255, 255, 0.5); }
   .control__input::-webkit-input-placeholder {
     font-family: 'Futura Light', sans-serif;
+    font-weight: normal;
     color: #fff; }
   .control__input::-moz-placeholder {
     font-family: 'Futura Light', sans-serif;
+    font-weight: normal;
     color: #fff; }
   .control__input:-ms-input-placeholder {
     font-family: 'Futura Light', sans-serif;
+    font-weight: normal;
     color: #fff; }
   .control__input::-ms-input-placeholder {
     font-family: 'Futura Light', sans-serif;
+    font-weight: normal;
     color: #fff; }
   .control__input::placeholder {
     font-family: 'Futura Light', sans-serif;
+    font-weight: normal;
     color: #fff; }
   .control__video {
-    min-height: 25rem; } }
+    min-height: 22rem; } }
 
 @media screen and (max-width: 480px) {
   .control__video {
-    min-height: 17rem;
-    margin-bottom: 2.628rem; } }
+    min-height: 17rem; }
+  .video__play {
+    width: 5.142rem; } }
 
 @media screen and (min-width: 570px) {
   .control__input {
