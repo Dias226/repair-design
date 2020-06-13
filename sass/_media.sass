@@ -100,9 +100,12 @@
   .section-title
     &__heading
       font-size: 1.85rem
-      margin-top: -3rem
+      margin-top: 0
       &_style
+        padding-top: 2rem
         color: $light
+      &-light
+        margin-top: -3.9rem
     &__projects_primary
       font-size: 1.68rem
       margin-bottom: 2rem
@@ -142,6 +145,7 @@
     &__video
       margin-bottom: 2.5rem
     &__text
+      max-width: 100%
       font-size: 1.2rem
       line-height: 2rem
       margin-bottom: 2.8rem
@@ -197,4 +201,13 @@
   .modal
     &__dialog
       overflow-y: scroll
-      max-height: 21.42rem  
+      max-height: 21.42rem
+@media screen and (min-width:376px) and (max-width:397px)
+  .control__text
+    max-width: 94%
+@media screen and (min-width:464px) and (max-width:489px)
+  .control__text
+    max-width: 94%
+@media screen and (min-width:571px) and (max-width:603px)
+  .control__text
+    max-width: 94%

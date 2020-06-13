@@ -1001,9 +1001,12 @@ img {
     padding: 1.2rem; }
   .section-title__heading {
     font-size: 1.85rem;
-    margin-top: -3rem; }
+    margin-top: 0; }
     .section-title__heading_style {
+      padding-top: 2rem;
       color: #fff; }
+    .section-title__heading-light {
+      margin-top: -3.9rem; }
   .section-title__projects_primary {
     font-size: 1.68rem;
     margin-bottom: 2rem; }
@@ -1039,6 +1042,7 @@ img {
     .control__video {
       margin-bottom: 2.5rem; }
     .control__text {
+      max-width: 100%;
       font-size: 1.2rem;
       line-height: 2rem;
       margin-bottom: 2.8rem; }
@@ -1108,3 +1112,15 @@ img {
   .modal__dialog {
     overflow-y: scroll;
     max-height: 21.42rem; } }
+
+@media screen and (min-width: 376px) and (max-width: 397px) {
+  .control__text {
+    max-width: 94%; } }
+
+@media screen and (min-width: 464px) and (max-width: 489px) {
+  .control__text {
+    max-width: 94%; } }
+
+@media screen and (min-width: 571px) and (max-width: 603px) {
+  .control__text {
+    max-width: 94%; } }
