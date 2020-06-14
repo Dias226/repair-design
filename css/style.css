@@ -354,7 +354,7 @@ template {
 .input {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
   font-size: 1.285rem;
   color: #fff;
   padding: 0.5rem 0; }
@@ -1031,7 +1031,9 @@ img {
       order: 5;
       bottom: -2rem; }
     .control__video {
-      min-height: 22rem; } }
+      min-height: 22rem; }
+  .input {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8); } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
