@@ -32,11 +32,13 @@
       max-width: 100%
 @media screen and ( max-width: 670px )
   .control
+    position: relative
     background: $dark
     color: $light
     &__label
       color: rgba($light, 0.5 )
     &__input
+      color: $light
       &::placeholder
         color: $light
     &__input-group
@@ -52,7 +54,10 @@
         font-family: 'Futura Light', serif
         font-size: 1.38rem
     &__button
+      position: absolute
+      width: 70%
       order: 5
+      bottom: -2rem
     &__video
       min-height: 22rem
 @media screen and ( max-width: 570px )
@@ -202,7 +207,7 @@
   .video
     &__play
       width: 5.142rem
-@media screen and ( min-width: 570px )
+@media screen and ( min-width: 671px )
   .control
     &__input
       color: black

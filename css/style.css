@@ -354,7 +354,7 @@ template {
 .input {
   background-color: transparent;
   border: none;
-  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 1.285rem;
   color: #fff;
   padding: 0.5rem 0; }
@@ -996,20 +996,23 @@ img {
 
 @media screen and (max-width: 670px) {
   .control {
+    position: relative;
     background: #131313;
     color: #fff; }
     .control__label {
       color: rgba(255, 255, 255, 0.5); }
-    .control__input::-webkit-input-placeholder {
+    .control__input {
       color: #fff; }
-    .control__input::-moz-placeholder {
-      color: #fff; }
-    .control__input:-ms-input-placeholder {
-      color: #fff; }
-    .control__input::-ms-input-placeholder {
-      color: #fff; }
-    .control__input::placeholder {
-      color: #fff; }
+      .control__input::-webkit-input-placeholder {
+        color: #fff; }
+      .control__input::-moz-placeholder {
+        color: #fff; }
+      .control__input:-ms-input-placeholder {
+        color: #fff; }
+      .control__input::-ms-input-placeholder {
+        color: #fff; }
+      .control__input::placeholder {
+        color: #fff; }
     .control__input-group {
       margin-bottom: 5.7rem; }
     .control__form {
@@ -1023,7 +1026,10 @@ img {
         font-family: 'Futura Light', serif;
         font-size: 1.38rem; }
     .control__button {
-      order: 5; }
+      position: absolute;
+      width: 70%;
+      order: 5;
+      bottom: -2rem; }
     .control__video {
       min-height: 22rem; } }
 
@@ -1179,7 +1185,7 @@ img {
   .video__play {
     width: 5.142rem; } }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 671px) {
   .control__input {
     color: black; } }
 
