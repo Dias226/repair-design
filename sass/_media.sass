@@ -32,6 +32,13 @@
       max-width: 100%
 @media screen and ( max-width: 670px )
   .control
+    background: $dark
+    color: $light
+    &__label
+      color: rgba($light, 0.5 )
+    &__input
+      &::placeholder
+        color: $light
     &__input-group
       margin-bottom: 5.7rem
     &__form
@@ -58,6 +65,8 @@
       display: none
   .title
     font-size: 1.94rem
+  .header
+    background: $deep
   .hero
     &__scroll-down
       display: none
@@ -78,11 +87,16 @@
       margin-bottom: 2rem
       font-size: 1.11rem
       padding: 1.5rem 2.07rem
+    &::after
+      background: $deep
   .design
-    background: $dark
+    background: $deep
+    padding-bottom: 2rem
     &__col:nth-child(3)
       li:nth-child(n+8)
         display: none
+  .projects
+    background: $deep
   .swiper-container-horizontal > .swiper-pagination-bullets
     bottom: 2.97rem
   .swiper-button-prev, .swiper-button-next
@@ -133,7 +147,7 @@
       line-height: 1.5rem
   .control
     position: relative
-    background: $dark
+    background: $deep
     color: $light
     padding: 0
     padding-bottom: 2.8rem
@@ -176,6 +190,11 @@
         color: $light
     &__video
       min-height: 22rem
+  .footer
+    background: $deep
+    &__wrap
+      background: $deep
+      margin-top: 1rem
 @media screen and ( max-width: 480px )
   .control
     &__video
