@@ -390,6 +390,12 @@ template {
   .policy__label_center {
     justify-content: center; }
 
+label.invalid {
+  color: tomato; }
+
+input.invalid {
+  border-bottom: 1px solid tomato; }
+
 .deal__checkbox {
   opacity: 0;
   visibility: hidden; }
@@ -948,7 +954,7 @@ img {
   .modal__form {
     display: flex;
     flex-direction: column; }
-  .modal__input {
+  .modal__input-group {
     margin-bottom: 3.482rem;
     display: flex;
     flex-direction: column; }
