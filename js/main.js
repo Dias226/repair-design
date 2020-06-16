@@ -60,14 +60,15 @@ $(document).ready(function () {
 
   new WOW().init();
 
-  //Валидация формы
+  //Валидация формы modal
   $('.modal__form').validate({
     errorClass: "invalid",
     rules: {
-      // строчное правило
+      
       userName: {
         required: true,
-        minlength: 2
+        minlength: 2,
+        maxlength: 15
       },
       userPhone: "required",
       // правило-объект
@@ -78,14 +79,65 @@ $(document).ready(function () {
     }, //сообщения
     messages: {
       userName: {
-        required: "Имя обязательно",
-        minlength: "Имя не короче двух букв"
+        required: "Заполните поле",
+        minlength: "Имя не короче двух букв",
+        maxlength: "Имя не более пятнадцати букв"
       },
-      userPhone: "Телефон обязателен",
+      userPhone: "Заполните поле",
       userEmail: {
-        required: "Обязятельно укажите email",
-        email: "Введите в формате: name@domain.com"
+        required: "Заполните поле",
+        email: "Введите корректный email"
       }
+    }
+  });
+
+  //Валидация формы control
+  $('.control__form').validate({
+    errorClass: "invalid",
+    rules: {
+
+      userName: {
+        required: true,
+        minlength: 2,
+        maxlength: 15
+      },
+      userPhone: "required",
+      // правило-объект
+      
+    }, //сообщения
+    messages: {
+      userName: {
+        required: "Заполните поле",
+        minlength: "Имя не короче двух букв",
+        maxlength: "Имя не более пятнадцати букв"
+      },
+      userPhone: "Заполните поле",
+      
+    }
+  });
+
+  //Валидация формы footer
+  $('.footer__form').validate({
+    errorClass: "invalid",
+    rules: {
+
+      userName: {
+        required: true,
+        minlength: 2,
+        maxlength: 15
+      },
+      userPhone: "required",
+      userQuestion: "required",
+      
+    }, //сообщения
+    messages: {
+      userName: {
+        required: "Заполните поле",
+        minlength: "Имя не короче двух букв",
+        maxlength: "Имя не более пятнадцати букв"
+      },
+      userPhone: "Заполните поле",
+      userQuestion: "Заполните поле",
     }
   });
 
