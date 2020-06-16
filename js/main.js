@@ -70,12 +70,18 @@ $(document).ready(function () {
         minlength: 2,
         maxlength: 15
       },
-      userPhone: "required",
+      userPhone: {
+        required: true,
+        minlength: 17
+      },
       // правило-объект
       userEmail: {
         required: true,
         email: true
-      }
+      },
+      policyCheckbox: {
+        required: true
+      },
     }, //сообщения
     messages: {
       userName: {
@@ -83,11 +89,18 @@ $(document).ready(function () {
         minlength: "Имя не короче двух букв",
         maxlength: "Имя не более пятнадцати букв"
       },
-      userPhone: "Заполните поле",
+      userPhone: {
+        required: "Заполните поле",
+        minlength: "Введите корректный номер телефона" 
+      },
+      
       userEmail: {
         required: "Заполните поле",
         email: "Введите корректный email"
-      }
+      },
+      policyCheckbox: {
+        required: "Примите соглашение"
+      },
     }
   });
 
@@ -101,7 +114,13 @@ $(document).ready(function () {
         minlength: 2,
         maxlength: 15
       },
-      userPhone: "required",
+      userPhone: {
+        required: true,
+        minlength: 17
+      },
+      controlCheckbox: {
+        required: true
+      },
       // правило-объект
       
     }, //сообщения
@@ -111,7 +130,14 @@ $(document).ready(function () {
         minlength: "Имя не короче двух букв",
         maxlength: "Имя не более пятнадцати букв"
       },
-      userPhone: "Заполните поле",
+      userPhone: {
+        required: "Заполните поле",
+        minlength: "Введите корректный номер телефона"
+      },
+      controlCheckbox: {
+        required: "Примите соглашение"
+      },
+      
       
     }
   });
@@ -126,8 +152,15 @@ $(document).ready(function () {
         minlength: 2,
         maxlength: 15
       },
-      userPhone: "required",
+      userPhone: {
+        required: true,
+        minlength: 17
+      },
       userQuestion: "required",
+
+      footerCheckbox: {
+        required: true
+      },
       
     }, //сообщения
     messages: {
@@ -136,14 +169,22 @@ $(document).ready(function () {
         minlength: "Имя не короче двух букв",
         maxlength: "Имя не более пятнадцати букв"
       },
-      userPhone: "Заполните поле",
+      userPhone: {
+        required: "Заполните поле",
+        minlength: "Введите корректный номер телефона"
+      },
       userQuestion: "Заполните поле",
-    }
+
+      footerCheckbox: {
+        required: "Примите соглашение"
+      },
+    },
+    
   });
 
   // маска для телефона
 
-  $('[type=tel]').mask('+7(000) 000-00-00', {placeholder: "+7 (___) ___-__-__"});
+  $('[type=tel]').mask('+7(000) 000-00-00');
 
 });
 

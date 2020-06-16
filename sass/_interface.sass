@@ -33,6 +33,7 @@
     &::placeholder
       color: $light
 .policy
+  position: relative
   &__checkbox
     opacity: 0
     visibility: hidden
@@ -57,6 +58,9 @@
 label
   &.invalid
     color: tomato
+    position: absolute
+    top: 52px
+    left: 0
 input
   &.invalid
     border-bottom: 1px solid tomato
@@ -117,5 +121,8 @@ input
     transform: translate(-50%, -50%) rotate(45deg)
     border-top: 5px solid $light
     border-left: 5px solid $light
-
+#controlCheckbox-error
+  width: 100%
+  text-align: center
+  top: 40px
     
