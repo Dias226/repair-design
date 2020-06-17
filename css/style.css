@@ -929,6 +929,27 @@ img {
   .footer__menu {
     background-color: #131313;
     padding: 4.285rem 0; }
+  .footer__map {
+    max-width: 66rem;
+    margin: auto;
+    margin-bottom: 4rem; }
+  .footer__infotext {
+    text-transform: uppercase;
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.428rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 2rem;
+    color: #e3b873;
+    margin: auto;
+    width: 34rem;
+    margin-bottom: 1.857rem; }
+  .footer__icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.07rem; }
+    .footer__icon_item {
+      margin-right: 1rem; }
 
 .modal {
   opacity: 0;
