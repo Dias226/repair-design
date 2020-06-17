@@ -374,7 +374,7 @@ template {
   .policy__checkbox {
     opacity: 0;
     visibility: hidden; }
-    .policy__checkbox:checked + .policy__label::before {
+    .policy__checkbox:checked ~ .policy__label::before {
       background: #e3b873 url("../img/check.svg") no-repeat center/0.8rem; }
   .policy__label {
     display: flex;
@@ -404,7 +404,7 @@ input.invalid {
 .deal__checkbox {
   opacity: 0;
   visibility: hidden; }
-  .deal__checkbox:checked + .deal__label::before {
+  .deal__checkbox:checked ~ .deal__label::before {
     background: #e3b873 url("../img/check.svg") no-repeat center/0.8rem; }
 
 .deal__label {
@@ -477,7 +477,7 @@ input.invalid {
 
 #footerCheckbox-error {
   position: absolute;
-  top: 40px;
+  top: 45px;
   left: 30%; }
 
 .container {
@@ -1071,10 +1071,6 @@ img {
   #controlCheckbox-error {
     position: absolute;
     top: 40px;
-    left: 0; }
-  #footerCheckbox-error {
-    position: absolute;
-    top: 40px;
     left: 0; } }
 
 @media screen and (max-width: 570px) {
@@ -1247,7 +1243,11 @@ img {
   .policy__label_center {
     font-family: 'Futura Light', sans-serif;
     font-size: 1.35rem;
-    justify-content: start; } }
+    justify-content: start; }
+  #footerCheckbox-error {
+    position: absolute;
+    top: 45px;
+    left: 0; } }
 
 @media screen and (max-width: 480px) {
   .control__video {
