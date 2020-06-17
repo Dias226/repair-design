@@ -1246,7 +1246,7 @@ img {
     justify-content: start; }
   #footerCheckbox-error {
     position: absolute;
-    top: 45px;
+    top: 50px;
     left: 0; } }
 
 @media screen and (max-width: 480px) {
