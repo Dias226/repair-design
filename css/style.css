@@ -947,7 +947,8 @@ img {
   .footer__icon {
     display: flex;
     justify-content: center;
-    margin-bottom: 3.07rem; }
+    margin-bottom: 3.07rem;
+    margin-left: 1rem; }
     .footer__icon_item {
       margin-right: 1rem; }
 
@@ -1261,6 +1262,12 @@ img {
       font-size: 1.3rem; }
     .footer__menu {
       display: none; }
+    .footer__map {
+      margin-bottom: 0;
+      width: 100%;
+      margin: 0; }
+  .container__bottom {
+    padding-bottom: 2rem; }
   .policy__label_center {
     font-family: 'Futura Light', sans-serif;
     font-size: 1.35rem;
@@ -1274,7 +1281,9 @@ img {
   .control__video {
     min-height: 17rem; }
   .video__play {
-    width: 5.142rem; } }
+    width: 5.142rem; }
+  .footer__infotext {
+    max-width: 76%; } }
 
 @media screen and (min-width: 671px) {
   .control__input {
