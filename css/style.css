@@ -1089,8 +1089,8 @@ img {
     top: 50px; }
   #controlCheckbox-error {
     position: absolute;
-    top: 40px;
-    left: 0; }
+    top: 50px;
+    left: 25px; }
   #map {
     width: 40rem;
     height: 28rem; } }
