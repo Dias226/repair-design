@@ -225,9 +225,9 @@
             Отправить
           </button>
           <div class="policy control__policy">
-            <input type="checkbox" name="controlCheckbox" id="deal-checkbox" class="deal__checkbox"
+            <input type="checkbox" name="controlCheckbox" id="deal-checkbox" class="policy__checkbox"
               checked>
-            <label for="deal-checkbox" class="deal__label control__policy-label">я соглашаюсь с обработкой данных</label>
+            <label for="deal-checkbox" class="policy__label control__policy-label">я соглашаюсь с обработкой данных</label>
           </div>
           <!-- /.policy -->
         </form>
@@ -484,8 +484,8 @@
           <img class="footer__icon_item" src="img/mail.svg" alt="Почта">
           <img class="footer__icon_item" src="img/insta.svg" alt="Инстаграм">
         </div>
-        <div class="map footer__map">
-          <iframe
+        <div class="map footer__map" id="wrapMap">
+          <iframe style="pointer-events: none;"
             src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab3a5fe72a33264ec2a8d5d1d339c7ad15bf12b3d03ce689d6472772ad7fd4d3e&amp;source=constructor"
             id="map"></iframe>
         </div>
