@@ -48,6 +48,7 @@
     background-color: $dark
     padding: 4.285rem 0
   &__map
+    border: none
     max-width: 66rem
     margin-bottom: 4rem
   &__infotext
@@ -68,6 +69,8 @@
     margin-left: 1rem
     &_item
       margin-right: 1rem
+      &:hover
+        cursor: pointer
 #map
   width: 66rem
   height: 33.214rem
@@ -75,3 +78,24 @@
   display: flex
   flex-direction: column 
   align-items: center
+.phone
+  &-footer
+    text-decoration: none
+#wrapMap
+    position: relative
+    cursor: help
+    overflow: hidden
+    
+.mapTitle
+    position: absolute
+    color: black
+    z-index: 1000
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px
+    display: none
+    padding: 5px 20px
+    border-radius: 5px
+    background: rgb(165, 241, 169)
+    border-width: 1px
+    border-style: solid
+    border-color: rgb(204, 204, 204)
+    border-image: initial
