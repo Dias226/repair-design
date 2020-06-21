@@ -208,7 +208,7 @@ function backToTop() {
 }
 
 backToTop();
-
+//отключение zoom карты через скрол мыши 
 document.addEventListener('click', function (e) {
   var map = document.querySelector('#map-wrap iframe')
   if (e.target.id === 'map-wrap') {
